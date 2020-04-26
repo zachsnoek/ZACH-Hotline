@@ -1,0 +1,19 @@
+{
+  "name": "zach-hotline",
+  "version": "1.0.0",
+  "description": "A text service for my bio, music recommendations, and more.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Zachary D. Snoek",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "twilio": "^3.42.2",
+    "twilio-cli": "^2.0.0"
+  }
+}
