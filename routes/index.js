@@ -14,8 +14,8 @@ router.post("/sms", (req, res) => {
         case "bio":
             twiml.message(response.bio());
             break;
-        case "good tune":
-            twiml.message(response.goodTune());
+        case "bop":
+            twiml.message(response.bop());
             break;
         default: break;
     }
